@@ -13,114 +13,147 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="navbarbootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body >
-    <header  style="background: #e6e3dd; position: fixed; width: 100%; z-index:1;">
-       <div class="row  ">
-            <div class="col-md-6 col-9 p-3">
-                <h2 >Nowfitha Mohammed</h2>
-            </div>
-            <div class="col-md-6 col-3 my-auto ">
-                <nav class="navbar navbar-expand-lg navbar-light " >
+  <header style="background: #0a0a0a; position: fixed; width: 100%; z-index:1;">
+    <div class="row text-white ">
+         <div class="col-md-6 col-9 p-3">
+             <h2 >Nowfitha Mohammed</h2>
+         </div>
+         <div class="col-md-6 col-3 my-auto ">
+             <nav class="navbar navbar-expand-lg navbar-dark ">
+                
+                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon text-white"></span>
+                 </button>
+               
+                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                   <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                       <a class="nav-link text-white scrollto" href="#home-section">Home <span class="sr-only"></span></a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link text-white scrollto" href="#about-section">About</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link text-white scrollto" href="#experience-section">Experience</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link text-white scrollto" href="#service-section">Services</a>
+                       </li>
+                     <li class="nav-item">
+                       <a class="nav-link text-white scrollto" href="#contact-section">Contact</a>
+                     </li>
+                   </ul>
                    
-                    <button class="navbar-toggler ml-auto white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto" style="font-size: 20px;;" >
-                        <li class="nav-item active">
-                          <a class="nav-link scrollto" href="#home-section">Home <span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link scrollto" href="#about-section">About</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link scrollto" href="#experience-section">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#service-section">Services</a>
-                          </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact-section">Contact</a>
-                        </li>
-                      </ul>
-                      
-                    </div>
-                  </nav>
-                 
-                   
-                  
-                 
-            </div>
-       </div>  
-         
-    </header>
-    <section style="padding-top:3cm ;background-image:url('./images/bg-images.jpg');
+                 </div>
+               </nav>
+              
+                
+               
+              
+         </div>
+    </div>  
+      
+ </header>
+    <section style="padding-top:3cm ;background-image:url('./images/bg-images.jpeg');
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;height:600px;
     " id="home-section">
       <div class="container">
-          <div class="row" style="margin-top:100px;;">
-             <div class="col-md-12 text-center">
-                <h1>HI , I'M  <br>NOWFITHA</h1> 
-                <h3 class="text-white">FULL STACK DEVELOPER</h3>
+          <div class="row" style="margin-top:50px;">
+             <div class="col-md-12 ml-4" style="transition: 0.3s;">
+              <div class="about">
+                <h1 class="jt" >HI,I'M <br>NOWFITHA</h1> 
+                <h3 class=" text-white">FULL STACK DEVELOPER</h3>
+              </div>
              </div>
           </div>
       </div>
   </section>
 
-  <div style="margin-top: 5px;">
-    <section class="pt-4" id="about-section" style=" padding-top:3cm;">
-      <div class="container " style="margin-top: 50px;">
+  <div style="margin-top: 6px;">
+    <section class="pt-4 bg-dark text-white" id="about-section" style=" padding-top:3cm;">
+      <div class="container" style="margin-top: 60px;">
          <h1 class="text-center">About Me</h1>
                 <div class="col-md-12 mt-3">
                 
                   <img src="https://media.licdn.com/dms/image/D4D03AQG-V9f7QYNyAQ/profile-displayphoto-shrink_200_200/0/1709193607914?e=1721865600&v=beta&t=bgjvlUj-QUv0D-ZOtToWxV56DFLYn9B_qYbeIV_ZfYA" alt="" class="img-fluid rounded-circle" style="display: block;
                   margin-left: auto;
-                  margin-right: auto;" >
+                  margin-right: auto;
+                  margin: 15px auto;
+                  border: 4px solid #2c2f3f;" >
                 </div>
                 <div class="col-md-12 mt-3 " >
-                   <p style="font-size: 20px;">hi , My name is Nowfitha Mohammed I'm a COMPUTER SCIENCE ENGINEER.Full Stack Developer with 2 years of experience in designing, developing, and maintaining web applications for clients in the finance and ecommerce sectors. Proficient in frontend technologies (HTML, CSS, JavaScript) and backend languages (php, node ,.net), with expertise in web frameworks like React and express<br></p> 
+                  <div class="card text-center" style="width: 100%;">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">Web Developing</h5>
+                      <p class="card-text text-dark" > Hi, My name is Nowfitha Mohammed I'm a Computer Science Engineer.Full Stack Developer with 2 years of experience in designing, developing, and maintaining web applications for clients in the finance and ecommerce sectors. Proficient in frontend technologies (Html, Css, JavaScript) and backend languages (php, node ,.net), with expertise in web frameworks like React and express<br></p>
+                    </div>
+                  </div>
+                  
+                  
                 
             </div>
         </div>
     </section>
-
+    </div>
+    
     <div style="margin-top: 5px;">
-    <section class="pt-4" id="experience-section" style=" padding-top:3cm;">
-      <div class="container " style="margin-top: 50px;">
+    <section class="pt-4 bg-dark text-white" id="experience-section" >
+      <div class="container " style="margin-top: 60px;">
         <h1 class="text-center ">EXPERIENCES</h1>
            <div class="row" style="margin-top:5px;">
-           <div class="col-md-6 mt-3">
-             <img src="./images/net.jpg" style="width: 150px;">
-                
-              
+           <div class="col-md-4 mt-3">
+            <img src="./images/net.png" alt="" class="img-fluid rounded-circle" style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin: 15px auto;
+                  border: 4px solid #2c2f3f;" >
             </div>
-            <div class="col-md-6 mt-3">
+             <div class="col-md-4  mt-3">
+              <img src="./images/react.png" alt="" class="img-fluid rounded-circle" style="display: block;
+              margin-left: auto;
+              margin-right: auto;
+              margin: 15px auto;
+              border: 4px solid #2c2f3f;" > 
+            </div>
             
-            <img src="./images/php.png" style="width: 150px;">
-            </div>
-            </div>
-            <div class="row" style="margin-top:5px;">
-           
-            <div class="col-md-6  mt-3">
-            <img src="./images/react.png" style="width:150px"> 
-            </div>
-          
-             <div class="col-md-6 mt-3" >
-              <img src="./images/node.png" style="width:150px;">
-              </div>
-              </div>
-              
+              <div class="col-md-4 mt-3" >
+                <img src="./images/node.png" alt="" class="img-fluid rounded-circle" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 15px auto;
+                border: 4px solid #2c2f3f;" >
+                </div>
+                </div>
+
               <div class="row" style="margin-top:5px;">
-              
-                <div class="col-md-6 mt-3">
-                  <img src="./images/mongo.png" style="width:150px">
+           <div class="col-md-4 mt-3">
+                <img src="./images/php.png" alt="" class="img-fluid rounded-circle" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 15px auto;
+                border: 4px solid #2c2f3f;" >
+              </div>
+           
+            
+                <div class="col-md-4 mt-3">
+                  <img src="./images/mongo.png" alt="" class="img-fluid rounded-circle" style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin: 15px auto;
+                  border: 4px solid #2c2f3f;" >
                   </div>
-                <div class="col-md-6 mt-3">
-                <img src="./images/mysql.png" style="width:150px">
+                <div class="col-md-4 mt-3">
+                  <img src="./images/mysql.png" alt="" class="img-fluid rounded-circle" style="display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin: 10px auto;
+                  border: 4px solid #2c2f3f;" >
               </div>
 
             </div>
@@ -129,41 +162,41 @@
       </div>
   
 <div style="margin-top: 4px;">
-  <section class="p-4 " id="service-section" >
-    <div class="container" style="margin-top: 50px;">
+  <section class="p-4 bg-dark text-white " id="service-section" >
+    <div class="container" style="margin-top: 60px;">
       <h1 class="text-center ">SERVICES</h1>
         <div class="row" >
           
           <div class="col-md-4 mt-5">
           <div class="card text-center" style="width: 18rem;">
-            <i class="fa-solid fa-business-time display-1 text-info"></i>
+            <i class="fa-solid fa-business-time display-1 text-dark"></i>
            
             <div class="card-body">
-              <h5 class="card-title">Web Developing</h5>
-              <p class="card-text">Full Stack Developers work in the IT department of a company performing both front- and back-end operations on websites and computer systems. They design front-end website architecture and work closely with the Graphic Designers in the company to ensure website applications collaborate well with their design elements...</p>
+              <h3 class="card-title text-dark">Web Developing</h3>
+              <p class="card-text text-dark ">Full Stack Developers work in the IT department of a company performing both front and back-end operations on websites and computer systems. They design front-end website architecture and work closely with Graphic Designers in company to ensure website applications collaborate well with design element</p>
             </div>
           </div>
           </div>
           <div class="col-md-4 mt-5">
           
           <div class="card text-center" style="width: 18rem;">
-            <i class="fa-solid fa-check-to-slot display-1 text-info"></i>
+            <i class="fa-solid fa-check-to-slot display-1 text-dark"></i>
            
             <div class="card-body">
-              <h5 class="card-title">Testing</h5>
-              <p class="card-text">Proven track record in developing and implementing testing protocols, having successfully tested and improved more than 50 software products. Skilled in using automated testing tools and adept at identifying software bugs, ensuring optimal product performance.</p>
+              <h3 class="card-title text-dark">Testing</h3>
+              <p class="card-text text-dark">Proven track record in developing and implementing testing protocols, having successfully tested and improved more than 50 software products. Skilled in using automated testing tools and adept at identifying software bugs, ensuring optimal product performance.</p>
             </div>
            
           </div>
           </div>
           <div class="col-md-4 mt-5">
           
-          <div class="card text-center" style="width: 18rem;">
-            <i class="fa-solid fa-server display-1 text-info"></i>
+          <div class="card text-center " style="width: 18rem;">
+            <i class="fa-solid fa-server display-1 text-dark"></i>
            
             <div class="card-body">
-              <h5 class="card-title">Hosting</h5>
-              <p class="card-text">Web hosting services provide shared or dedicated hosting of one or more services for their customers. Usually used for hosting websites, a web hosting service can also be used to host company email, files, games and other content.</p>
+              <h3 class="card-title text-dark ">Hosting</h3>
+              <p class="card-text text-dark">Web hosting services provide shared or dedicated hosting of one or more services for their customers. Usually used for hosting websites, a web hosting service can also be used to host company email, files, games and other content.</p>
             </div>
           </div>
             
@@ -176,8 +209,8 @@
 </div>
 
 <div style="margin-top: 5px;">
-<section class="p-4" id="contact-section">
-  <div class="container" style="margin-top: 50px;">
+<section class="p-4 bg-dark text-white" id="contact-section">
+  <div class="container" style="margin-top: 60px;">
     <h1 class="text-center ">CONTACT</h1>
       <div class="row">
           <div class="col-md-12">
@@ -203,7 +236,7 @@
               </div>
               <div class="form-group text-center">
                
-              <button type="button" class="btn btn-dark">Submit</button>
+              <button type="button" class="btn btn-dark" style="border-color: #d9d5cc;">Submit</button>
               </div>
               <div class="my-3"  >
                
