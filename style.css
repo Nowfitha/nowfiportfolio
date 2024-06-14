@@ -32,10 +32,7 @@ body {
     text-decoration: none;
   }
   
-  navbar-toggler:hover {
-    color: #37b3ed;
-    text-decoration: none;
-  }
+  
   .circle{
     width:100px;
     height:100px;
@@ -49,6 +46,10 @@ body {
 @keyframes example {
   from {background-color: red;}
   to {background-color: yellow;}
+}
+.thumb {
+  width: 100px;
+  height: auto; // if the image is square, this will be 100px automatically
 }
 
   h1,
